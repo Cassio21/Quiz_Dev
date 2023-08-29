@@ -1,0 +1,41 @@
+* {
+  font-family: 'Sedgwick Ave', cursive;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+body,
+html {
+  min-height: 100vh;
+  height: 100%;
+  background-color: #1c1c1c;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 3rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  transition: all ease-in-out 0.7s;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 53, 222, 1) 0%,
+    rgba(188, 84, 232, 1) 100%
+  );
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(188, 84, 232, 1) 0%,
+    rgba(132, 53, 222, 1) 100%
+  );
+  transform: scale(1.07);
+}
